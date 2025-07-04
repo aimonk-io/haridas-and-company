@@ -30,9 +30,9 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
-              <Factory className="h-8 w-8 text-primary" />
+              <Building2 className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold text-foreground">
-                PipeTech Solutions
+                Haridas and Company
               </span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -448,7 +448,7 @@ export default function Index() {
                   Business Details
                 </h3>
                 <p className="text-slate-300">GST No: 27ABVPB4711H1ZN</p>
-                <p className="text-slate-300">info@pipetechsolutions.com</p>
+                <p className="text-slate-300">info@haridasandcompany.com</p>
               </CardContent>
             </Card>
           </div>
@@ -468,9 +468,9 @@ export default function Index() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <Factory className="h-6 w-6 text-primary" />
+                <Building2 className="h-6 w-6 text-primary" />
                 <span className="text-lg font-bold text-white">
-                  PipeTech Solutions
+                  Haridas and Company
                 </span>
               </div>
               <p className="text-sm">
@@ -508,7 +508,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-slate-800 mt-8 pt-8 text-center text-sm">
-            <p>&copy; 2024 PipeTech Solutions. All rights reserved.</p>
+            <p>&copy; 2024 Haridas and Company. All rights reserved.</p>
           </div>
         </div>
       </footer>
