@@ -424,17 +424,9 @@ export default function Index() {
               <CardContent className="p-6 text-center">
                 <Phone className="h-8 w-8 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold text-white mb-2">Call Us</h3>
-                <p className="text-slate-300">+91 (xxx) xxx-xxxx</p>
-                <p className="text-slate-300">24/7 Emergency Support</p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-slate-800 border-slate-700">
-              <CardContent className="p-6 text-center">
-                <Mail className="h-8 w-8 text-primary mx-auto mb-4" />
-                <h3 className="font-semibold text-white mb-2">Email Us</h3>
-                <p className="text-slate-300">info@pipetechsolutions.com</p>
-                <p className="text-slate-300">sales@pipetechsolutions.com</p>
+                <p className="text-slate-300">+91-9421719221</p>
+                <p className="text-slate-300">7020300816</p>
+                <p className="text-slate-300">9966960103</p>
               </CardContent>
             </Card>
 
@@ -442,8 +434,21 @@ export default function Index() {
               <CardContent className="p-6 text-center">
                 <MapPin className="h-8 w-8 text-primary mx-auto mb-4" />
                 <h3 className="font-semibold text-white mb-2">Visit Us</h3>
-                <p className="text-slate-300">Industrial Area</p>
-                <p className="text-slate-300">Your City, State</p>
+                <p className="text-slate-300">Quaderia masjeed chock</p>
+                <p className="text-slate-300">new coloney road</p>
+                <p className="text-slate-300">Ballarshah - 442701</p>
+                <p className="text-slate-300">Dist: Chandrapur, Maharashtra</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-slate-800 border-slate-700">
+              <CardContent className="p-6 text-center">
+                <Mail className="h-8 w-8 text-primary mx-auto mb-4" />
+                <h3 className="font-semibold text-white mb-2">
+                  Business Details
+                </h3>
+                <p className="text-slate-300">GST No: 27ABVPB4711H1ZN</p>
+                <p className="text-slate-300">info@pipetechsolutions.com</p>
               </CardContent>
             </Card>
           </div>
