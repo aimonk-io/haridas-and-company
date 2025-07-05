@@ -26,10 +26,8 @@ export default function Enquiry() {
     contactPerson: "",
     mobile: "",
     email: "",
-    address: "",
     message: "",
   });
-  const [file, setFile] = useState<File | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -48,10 +46,8 @@ export default function Enquiry() {
         contactPerson: "",
         mobile: "",
         email: "",
-        address: "",
         message: "",
       });
-      setFile(null);
 
       alert("Enquiry submitted successfully! We'll get back to you soon.");
     } catch (error) {
@@ -66,11 +62,6 @@ export default function Enquiry() {
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const selectedFile = e.target.files?.[0] || null;
-    setFile(selectedFile);
   };
 
   return (
@@ -203,32 +194,6 @@ export default function Enquiry() {
                           required
                         />
                       </div>
-                    </div>
-
-                    <div className="space-y-2">
-                      <Label htmlFor="address">Address</Label>
-                      <Textarea
-                        id="address"
-                        name="address"
-                        value={formData.address}
-                        onChange={handleInputChange}
-                        placeholder="Enter your complete address"
-                        rows={3}
-                      />
-                    </div>
-
-                    <div className="space-y-2">
-                      <Label htmlFor="file">Upload Documents (Optional)</Label>
-                      <Input
-                        id="file"
-                        type="file"
-                        onChange={handleFileChange}
-                        accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
-                        className="file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-medium file:bg-primary file:text-primary-foreground hover:file:bg-primary/90"
-                      />
-                      <p className="text-sm text-muted-foreground">
-                        Supported formats: PDF, DOC, DOCX, JPG, PNG (Max 10MB)
-                      </p>
                     </div>
 
                     <div className="space-y-2">
