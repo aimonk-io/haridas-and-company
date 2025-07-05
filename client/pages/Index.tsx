@@ -72,13 +72,14 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6">
-                Industrial Piping
-                <span className="text-primary block">Solutions</span>
+                FRP/GRP & Thermoplastic
+                <span className="text-primary block">Piping Solutions</span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Comprehensive FRP/GRP, GRE, and Thermoplastic piping systems for
-                critical industrial applications. From design to maintenance, we
-                deliver reliable solutions that keep your operations flowing.
+                Specializing in fabrication, erection, commissioning, and annual
+                maintenance of FRP/GRP, GRE, and thermoplastic-lined piping
+                systems including PVC, PP, CPVC, PPH, and PVDF for critical
+                industrial applications across diverse sectors.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-lg px-8">
@@ -96,7 +97,7 @@ export default function Index() {
                   <Card className="border-primary/20">
                     <CardContent className="p-4 text-center">
                       <Factory className="h-8 w-8 text-primary mx-auto mb-2" />
-                      <h3 className="font-semibold">25+ Years</h3>
+                      <h3 className="font-semibold">28+ Years</h3>
                       <p className="text-sm text-muted-foreground">
                         Experience
                       </p>
@@ -149,25 +150,25 @@ export default function Index() {
             <Card className="border-2 hover:border-primary/50 transition-colors">
               <CardHeader>
                 <Factory className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Fabrication & Manufacturing</CardTitle>
+                <CardTitle>Design & Engineering</CardTitle>
                 <CardDescription>
-                  Custom fabrication of FRP/GRP, GRE, and thermoplastic pipes
-                  and fittings to exact specifications
+                  Crafting tailored solutions with precision engineering and
+                  innovative designs to meet unique requirements
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">
                   <li className="flex items-center text-sm">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    PVC, PP, CPVC, PPH, PVDF materials
+                    Custom system design
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Custom dimensions & specifications
+                    Precision engineering
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Quality assurance testing
+                    Technical consultancy
                   </li>
                 </ul>
               </CardContent>
@@ -176,25 +177,25 @@ export default function Index() {
             <Card className="border-2 hover:border-primary/50 transition-colors">
               <CardHeader>
                 <Building2 className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Installation & Erection</CardTitle>
+                <CardTitle>Manufacturing & Fabrication</CardTitle>
                 <CardDescription>
-                  Professional installation, erection, and commissioning
-                  services by certified technicians
+                  High-quality manufacturing of customized pipes, fittings,
+                  tanks, and FRP lining components
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">
                   <li className="flex items-center text-sm">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Site preparation & planning
+                    FRP/GRP pipes & fittings
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Professional installation
+                    Thermoplastic lined systems
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    System commissioning
+                    Storage tanks & vessels
                   </li>
                 </ul>
               </CardContent>
@@ -203,25 +204,106 @@ export default function Index() {
             <Card className="border-2 hover:border-primary/50 transition-colors">
               <CardHeader>
                 <Wrench className="h-12 w-12 text-primary mb-4" />
-                <CardTitle>Maintenance & AMC</CardTitle>
+                <CardTitle>Installation & Maintenance</CardTitle>
                 <CardDescription>
-                  Comprehensive annual maintenance contracts and emergency
-                  support services
+                  Expert site installation services and comprehensive annual
+                  maintenance programs
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">
                   <li className="flex items-center text-sm">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Preventive maintenance
+                    Site installation & erection
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                    Emergency repairs
+                    System commissioning
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Annual maintenance contracts
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <Shield className="h-12 w-12 text-primary mb-4" />
+                <CardTitle>Inspection Services</CardTitle>
+                <CardDescription>
+                  Thorough inspections to ensure optimal performance and
+                  compliance with industry standards
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2">
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Quality control inspections
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Compliance verification
                   </li>
                   <li className="flex items-center text-sm">
                     <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
                     Performance monitoring
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <Building2 className="h-12 w-12 text-primary mb-4" />
+                <CardTitle>Construction Support</CardTitle>
+                <CardDescription>
+                  On-site construction support and services to address
+                  challenges and maintain uninterrupted operations
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2">
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    On-site technical support
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Emergency response
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Project management
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="border-2 hover:border-primary/50 transition-colors">
+              <CardHeader>
+                <Factory className="h-12 w-12 text-primary mb-4" />
+                <CardTitle>FRP Lining Services</CardTitle>
+                <CardDescription>
+                  Durable FRP lining for MS, SS, and concrete tanks and pipes,
+                  ensuring enhanced resistance and longevity
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2">
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Tank lining solutions
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Pipe lining services
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Corrosion protection
                   </li>
                 </ul>
               </CardContent>
@@ -309,13 +391,14 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                Engineering Excellence Since 1998
+                Engineering Excellence Since 1996
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                With over 25 years of experience, we've established ourselves as
-                a trusted partner for industrial piping solutions. Our expertise
-                spans across material selection, system design, fabrication, and
-                maintenance.
+                With over 28 years of pioneering experience, Haridas and Company
+                has established itself as a trusted partner specializing in
+                FRP/GRP, GRE, and thermoplastic-lined piping systems. We are
+                committed to delivering innovative and sustainable solutions
+                across diverse industrial sectors.
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
@@ -474,9 +557,10 @@ export default function Index() {
                 </span>
               </div>
               <p className="text-sm">
-                Leading provider of industrial piping solutions with expertise
-                in FRP/GRP, thermoplastic, and specialized chemical-resistant
-                systems.
+                Pioneering company specializing in fabrication, erection,
+                commissioning, and annual maintenance of FRP/GRP, GRE, and
+                thermoplastic-lined piping systems for critical industrial
+                applications.
               </p>
             </div>
             <div>
