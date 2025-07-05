@@ -60,7 +60,9 @@ export default function Index() {
               >
                 Contact
               </a>
-              <Button size="sm">Get Quote</Button>
+              <Button size="sm" asChild>
+                <a href="/enquiry">Get Quote</a>
+              </Button>
             </div>
           </div>
         </div>
@@ -82,9 +84,11 @@ export default function Index() {
                 industrial applications across diverse sectors.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-lg px-8">
-                  Get Started
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                <Button size="lg" className="text-lg px-8" asChild>
+                  <a href="/enquiry">
+                    Get Started
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </a>
                 </Button>
                 <Button variant="outline" size="lg" className="text-lg px-8">
                   View Projects
@@ -537,9 +541,11 @@ export default function Index() {
           </div>
 
           <div className="text-center mt-12">
-            <Button size="lg" className="text-lg px-8">
-              Request Quote
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button size="lg" className="text-lg px-8" asChild>
+              <a href="/enquiry">
+                Request Quote
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
           </div>
         </div>
